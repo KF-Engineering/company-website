@@ -1,0 +1,111 @@
+.about{
+    background-color: #CFCFAF;
+    height: calc(100vh - 70px);
+    scroll-snap-align: start;
+    width: 105%;
+    display: flex;
+
+
+    .left{
+        flex: 0.5;
+        overflow: hidden; 
+
+
+        .imgContainer{
+            width: 700px;
+            height: 700px;
+            background-color: crimson;
+            border-radius: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden; 
+           
+
+
+            .smallerimgContainer{
+                width: 600px;
+            height: 600px;
+                
+                border-radius: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                scroll-behavior: smooth;
+                overflow: hidden; 
+
+
+                /* Hide scrollbar for Chrome, Safari and Opera */
+                &-webkit-scrollbar {
+                    display: none;
+                }
+                
+                /* Hide scrollbar for IE, Edge and Firefox */
+                
+                    -ms-overflow-style: none;  /* IE and Edge */
+                    scrollbar-width: none;  /* Firefox */
+                
+               
+                
+
+            
+
+            }
+        }
+
+    }
+
+
+    .right{
+        flex: 0.5;
+        .headlines{
+
+            padding-left: 5vw;
+            padding-top: 10vw;
+            justify-content: space-evenly;
+    
+            .headlineone{
+                
+                size: auto;
+                
+        margin: 0 auto;
+        height: min-content;
+        overflow-y: hidden ;
+    
+            }
+    
+    
+            .headlinetwo{
+                
+                
+                color:dimgray;
+                height: min-content;
+                
+        margin: 0 auto;
+        height: min-content;
+        overflow-y: hidden ;
+    
+                
+            }
+            .Text{
+                padding-top: 3vh;
+                justify-content: space-evenly;
+                height: fit-content;
+                padding-left: auto;
+
+            }
+    
+            .cta{
+                padding-top: 5vh;
+                justify-content: space-evenly;
+                height: fit-content;
+    
+            }
+
+    }
+
+   
+    }
+}
+
+

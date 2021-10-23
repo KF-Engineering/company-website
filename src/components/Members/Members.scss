@@ -1,0 +1,63 @@
+.members{
+    background-color:#F6AE9F  ;
+    height: calc(100vh - 70px);
+    scroll-snap-align: start;
+    justify-content: center;
+    overflow: hidden ;
+    //background-image: url('./../resources/Hinterrhein.png');
+    
+    
+    .headline{
+        padding-top: 10vh;
+        padding-left: 45vw;
+        overflow: hidden ;
+        
+    justify-content: center;
+    }
+    .CarouselContainer{
+        
+        padding-top: 5vh;
+        height: 80vh;
+        overflow: hidden;
+        
+        justify-content: center;
+
+        .Carousel{
+            max-width: 80vw;
+            max-height:70vh;
+            overflow: hidden;
+            justify-content: center;
+            .CarouselItem{
+                max-width: 70vw;
+                max-height: 50vh;
+                overflow: hidden;
+                .CarouselCard{
+
+                    max-width: 70vw;
+                    max-height: 45vh;
+                    overflow: hidden;
+                    .CarouselImg{
+
+                        max-height: 30vh;
+                        overflow: hidden;
+
+                    }
+
+                }
+            }
+        }
+
+        
+    }
+
+
+}
+
+
+        
+        
+        
+    
+
+
+

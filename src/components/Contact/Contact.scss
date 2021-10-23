@@ -1,0 +1,20 @@
+.contact{
+    background-color: #89C7AA;
+    height: calc(100vh - 70px);
+    scroll-snap-align: start;
+
+    
+}
+
+
+.input-fields{
+    padding-top: 10vh;
+}
+
+.headline{
+    padding-top: 10vh;
+    padding-left: 45vw;
+    margin: 0 auto;
+    height: min-content;
+    overflow-y: hidden ;
+}
