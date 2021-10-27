@@ -1,0 +1,151 @@
+.businesscard{
+    border-radius: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around ;
+    background-color: #CFCFAF;
+    min-width: 500px;
+    min-height: 450px;
+    border-color: white;
+    border-style:solid;
+
+
+
+    .left{
+        border-radius: 10px;
+        background-color: #CFCFAF;
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-around;
+        max-width: 700px;
+        min-width:500px;
+        left: 4vw;
+        right: 4vw;
+        bottom: 2vw;
+       
+
+
+        .image{
+            display: flex;
+                align-items: center;
+                justify-content: center;
+
+            background-color: #CFCFAF;
+            justify-content: center;
+            border-radius: 50vw;
+
+            .img_container{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                width: 300px;
+                height: 300px;
+                border-radius: 50vw;
+                justify-content: center;
+                background-color: crimson;
+                .actual_image{
+                    
+                border-radius: 50vw;
+                    width:250px;
+                    height: 250px;
+    
+                }
+
+            }
+            
+        }
+        .Name_field{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background-color: #CFCFAF;
+
+            .h1{
+                overflow: hidden;
+                justify-self: center;
+                background-color: #CFCFAF;
+            }
+           
+    
+        }
+        .Specialized_field{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .h3{
+                overflow: hidden;
+                justify-self: center;
+                background-color: #CFCFAF;
+            }
+    
+        }
+    }
+
+
+
+    .right{
+        border-radius: 10px;
+        background-color: #CFCFAF;
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-around;
+        max-width: 700px;
+        min-width:500px;
+        left: 4vw;
+        right: 4vw;
+        bottom: 2vw;
+    
+    
+        .textfield{
+            .title{
+                padding-left: 30px;
+                overflow: hidden;
+            }
+            ;
+            .text{
+                padding-left: 30px;
+                flex-wrap: wrap;
+                text-align: justify;
+            
+                max-width:  450px;
+            }
+
+        }
+        .skills{
+            .title{
+                overflow: hidden;
+                padding-left: 30px;
+            }
+            .badgeslist{
+                flex-wrap: wrap;
+                flex-direction: row;
+                display: flex;
+                justify-content:space-between;
+                max-width: 450px;
+            }
+            background-color: #CFCFAF;
+
+        }
+        .projects{
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+            background-color: #CFCFAF;
+            
+
+        }
+    }
+
+        
+}
+
+    
+

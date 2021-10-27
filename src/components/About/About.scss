@@ -4,6 +4,7 @@
     scroll-snap-align: start;
     width: 105%;
     display: flex;
+    align-items: center;
 
 
     .left{
@@ -88,7 +89,9 @@
                 
             }
             .Text{
+                padding-right: 20vw;
                 padding-top: 3vh;
+                padding-bottom: 3vw;
                 justify-content: space-evenly;
                 height: fit-content;
                 padding-left: auto;

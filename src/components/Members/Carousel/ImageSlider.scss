@@ -1,0 +1,52 @@
+.Imageslider{
+    position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    border-radius: 10px;
+    overflow: hidden;
+
+    
+
+    .right-arrow{
+        position: absolute;
+        right: 32px;
+        font-size: 3rem;
+        color: crimson ;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+    
+
+    .left-arrow{
+        position: absolute;
+        left: 32px;
+        font-size: 3rem;
+        color: crimson ;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        
+
+
+     
+
+
+    }
+    
+    
+
+
+}
